@@ -1,0 +1,132 @@
+take this as index file    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Theme Replica</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="masthead text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <h1 class="masthead-heading mb-0">Welcome to Our Website</h1>
+            <p class="masthead-subheading mb-0">A Bootstrap 4 Theme Replica</p>
+        </div>
+    </header>
+
+    <section id="bio" class="card-section text-center">
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+                <div class="card-body">
+                    <h2 class="card-title">Bio</h2>
+                    <p class="card-text">Hello! I am John Doe, a passionate web developer with over 10 years of experience. I specialize in creating dynamic and beautiful web pages using the latest technologies. I love coding and enjoy solving complex problems.</p>
+                    <p class="card-text">In my free time, I enjoy hiking, reading, and exploring new technologies. My journey in web development started during my college days, and since then, it has been an exciting adventure. I am constantly learning and evolving, aiming to deliver the best web experiences for my clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="card-section text-center">
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+                <div class="card-body">
+                    <h2 class="card-title">Work</h2>
+                    <p class="card-text">Here are some of the projects I've worked on:</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4" data-aos="fade-up">
+                                <div class="card-body">
+                                    <h5 class="card-title">E-commerce Website</h5>
+                                    <p class="card-text">Developed a full-featured e-commerce website with a user-friendly interface, secure payment gateway, and an efficient product management system.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4" data-aos="fade-up">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio Website</h5>
+                                    <p class="card-text">Created a personal portfolio website showcasing my skills, projects, and professional journey. The website is fully responsive and SEO optimized.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4" data-aos="fade-up">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blogging Platform</h5>
+                                    <p class="card-text">Built a scalable blogging platform with features such as user authentication, content management, and social sharing. The platform supports multiple users and roles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="card-section text-center">
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+                <div class="card-body">
+                    <h2 class="card-title">Contact</h2>
+                    <p class="card-text">I'd love to hear from you! Feel free to reach out to me through any of the following methods:</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Email:</strong> johndoe@example.com</li>
+                        <li><strong>Phone:</strong> (123) 456-7890</li>
+                        <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/johndoe</a></li>
+                        <li><strong>GitHub:</strong> <a href="#">github.com/johndoe</a></li>
+                    </ul>
+                    <p class="card-text">You can also fill out the contact form below:</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
